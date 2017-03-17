@@ -52,7 +52,7 @@
             android:parentActivityName=".MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.elasticbeanstalk.qichengu_hw8.qichengu_hw9_test.ResultActivity" />
+                android:value="com.elasticbeanstalk.qichengu_hw8.qichengu_hw9_test.MainActivity" />
         </activity>
     </application>
 

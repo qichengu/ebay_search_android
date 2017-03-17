@@ -148,38 +148,39 @@ android:layout_marginRight="10dp"
 
 
             </TableRow>
-            <TableRow
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent">
+
              <LinearLayout
                     android:orientation="horizontal"
-                    android:layout_width="fill_parent"
-                    android:layout_height="40dp">
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                 >
 
-                    <Button
-                        android:layout_width="100dp"
-                        android:layout_height="match_parent"
-                        android:text="BASIC INFO"
-                        android:id="@+id/tab1_button"
-                        android:onClick="tab1"
-                        android:background="@drawable/tabactive" />
-                    <Button
-                        android:layout_width="100dp"
-                        android:layout_height="match_parent"
-                        android:text="SELLER"
-                        android:id="@+id/tab2_button"
-                        android:onClick="tab2"
-                        android:background="@drawable/tabinactive" />
-                    <Button
-                        android:layout_width="100dp"
-                        android:layout_height="match_parent"
-                        android:text="SHIPPING"
-                        android:id="@+id/tab3_button"
-                        android:onClick="tab3"
-                        android:background="@drawable/tabinactive" />
+                 <Button
+                     android:layout_height="match_parent"
+                     android:text="BASIC INFO"
+                     android:id="@+id/tab1_button"
+                     android:onClick="tab1"
+                     android:background="@drawable/tabactive"
+                     android:layout_weight="1"
+                     android:layout_width="0dp"/>
+                 <Button
+                     android:layout_height="match_parent"
+                     android:text="SELLER"
+                     android:id="@+id/tab2_button"
+                     android:onClick="tab2"
+                     android:background="@drawable/tabinactive"
+                     android:layout_weight="1"
+                     android:layout_width="0dp"/>
 
-               </LinearLayout>
-            </TableRow>
+                 <Button
+                     android:layout_height="match_parent"
+                     android:text="SHIPPING"
+                     android:id="@+id/tab3_button"
+                     android:onClick="tab3"
+                     android:background="@drawable/tabinactive"
+                     android:layout_weight="1"
+                     android:layout_width="0dp" />
+             </LinearLayout>
             <TableRow
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
